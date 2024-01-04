@@ -1,13 +1,19 @@
 {
-  "item.iconitems.modrinth": "modrinth",
-  "item.iconitems.curseforge": "curseforge",
-  "item.iconitems.pridecraft": "pridecraft",
+  "item.iconitems.modrinth": "Modrinth",
+  "item.iconitems.curseforge": "Curseforge",
+  "item.iconitems.pridecraft": "Pridecraft",
   "item.iconitems.crss": "crss",
   "item.iconitems.drss": "drss",
   "item.iconitems.minecraft_java": "Java Minecraft",
   "item.iconitems.minecraft_bedrock": "Bedrock Minecraft",
   "item.iconitems.devin": "DEVIN (REAL)",
   "item.iconitems.maya": "MAYA (REAL)",
-  "item.iconitems.github": "github",
-  "item.iconitems.tcf": "TheClashFruit"
+  "item.iconitems.github": "Github",
+  "item.iconitems.tcf": "TheClashFruit",
+  "item.iconitems.alto": "Alto",
+  "item.iconitems.nineminecraft": "nineMinecraft",
+  "item.iconitems.25565minecraft": "25565minecraft",
+  "item.iconitems.loop": "Loop",
+  "item.iconitems.spiral": "Spiral",
+  "item.iconitems.modsynth": "modSynth"
 }

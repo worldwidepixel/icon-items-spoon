@@ -37,6 +37,16 @@ public class ModItems {
     public static final Item WINDOWS10 = registerItem("windows10", new Item(new FabricItemSettings())); //win10 logo
     public static final Item LINUX = registerItem("linux", new Item(new FabricItemSettings())); //Tux
     public static final Item MACOS = registerItem("macos", new Item(new FabricItemSettings())); //Latest macOS icon
+
+    // 2.0 ITEMS ?
+
+    public static final Item ALTO = registerItem("alto", new Item(new FabricItemSettings()));
+    public static final Item NINEMINECRAFT = registerItem("nineminecraft", new Item(new FabricItemSettings()));
+    public static final Item TWOFIVEMINECRAFT = registerItem("25565minecraft", new Item(new FabricItemSettings()));
+    public static final Item LOOP = registerItem("loop", new Item(new FabricItemSettings()));
+    public static final Item SPIRAL = registerItem("spiral", new Item(new FabricItemSettings()));
+    public static final Item MODSYNTH = registerItem("modsynth", new Item(new FabricItemSettings()));
+
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {  //makes the item appear on the Creative Inventory
 
         entries.add(MODRINTH);
@@ -63,6 +73,15 @@ public class ModItems {
         entries.add(LINUX);
         entries.add(MACOS);
 
+        //2.0 items ?
+
+        entries.add(ALTO);
+        entries.add(NINEMINECRAFT);
+        entries.add(TWOFIVEMINECRAFT);
+        entries.add(LOOP);
+        entries.add(SPIRAL);
+        entries.add(MODSYNTH);
+
     }
 
 
@@ -81,6 +100,9 @@ public class ModItems {
         Iconitems.LOGGER.info("Running into performance issues?");
         Iconitems.LOGGER.info("Try Devin's Additive today!");
         Iconitems.LOGGER.info("https://modrinth.com/modpack/additive");
+        Iconitems.LOGGER.info("  ");
+        Iconitems.LOGGER.info("Oh, also some of these logos were created by WorldWidePixel.");
+        Iconitems.LOGGER.info("https://worldwidepixel.ca/");
 
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
